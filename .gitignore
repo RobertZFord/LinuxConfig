@@ -3,3 +3,6 @@
 
 # except this file, of course
 !.gitignore
+
+# store our tmux configuration
+!.tmux.conf
