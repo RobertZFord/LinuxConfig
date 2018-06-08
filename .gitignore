@@ -7,6 +7,9 @@
 # store our tmux configuration
 !/.tmux.conf
 
+# store our bashrc
+!/.bashrc
+
 # include subdirectories
 !/bin
 
