@@ -1,0 +1,16 @@
+#!/bin/sh
+
+# if /sys/class/power_supply/AC/online is 1, it's plugged in; if 0, it's not
+STATUS=$(cat /sys/class/power_supply/AC/online)
+
+case $STATUS in
+	0*)
+	echo "B"
+	;;
+	1*)
+	echo "P"
+	;;
+	*)
+	echo "U"
+	;;
+esac

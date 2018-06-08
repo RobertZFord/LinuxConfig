@@ -1,8 +1,14 @@
 # ignore everything by default
-*
+/*
 
 # except this file, of course
-!.gitignore
+!/.gitignore
 
 # store our tmux configuration
-!.tmux.conf
+!/.tmux.conf
+
+# include subdirectories
+!/bin
+
+# include our custom binaries
+!/bin/*
