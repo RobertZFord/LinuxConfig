@@ -5,12 +5,12 @@ STATUS=$(cat /sys/class/power_supply/AC/online)
 
 case $STATUS in
 	0*)
-	echo "B"
+	printf "%s" "B"
 	;;
 	1*)
-	echo "P"
+	printf "%s" "P"
 	;;
 	*)
-	echo "U"
+	printf "%s" "U"
 	;;
 esac
