@@ -12,3 +12,4 @@ fi
 alias google='w3m google.com'
 alias wikipedia='w3m en.wikipedia.org'
 alias forums='w3m forums.somethingawful.com'
+

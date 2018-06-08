@@ -1,16 +1,13 @@
 # ignore everything by default
 /*
 
-# except this file, of course
-!/.gitignore
+## store some additional files
+!/.gitignore    # this file, of course
+!/.tmux.conf    # our tmux configuration
+!/.bashrc   # our bash settings
+!/.virc # our vi settings
 
-# store our tmux configuration
-!/.tmux.conf
-
-# store our bashrc
-!/.bashrc
-
-# include subdirectories
+# include our custom binaries subdirectory
 !/bin
 
 # include our custom binaries
