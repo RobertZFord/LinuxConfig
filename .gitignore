@@ -2,10 +2,14 @@
 /*
 
 ## store some additional files
-!/.gitignore    # this file, of course
-!/.tmux.conf    # our tmux configuration
-!/.bashrc   # our bash settings
-!/.virc # our vi settings
+# include this file, of course
+!/.gitignore
+# our tmux configuration
+!/.tmux.conf
+# our bash settings
+!/.bashrc
+# our vi settings
+!/.virc
 
 # include our custom binaries subdirectory
 !/bin
