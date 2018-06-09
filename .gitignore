@@ -8,8 +8,9 @@
 !/.tmux.conf
 # our bash settings
 !/.bashrc
-# our vi settings
+# our vi/m settings
 !/.virc
+!/.vimrc
 
 # include our custom binaries subdirectory
 !/bin
