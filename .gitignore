@@ -11,6 +11,8 @@
 # our vi/m settings
 !/.virc
 !/.vimrc
+# include our Xdefaults
+!/.Xdefaults
 
 # include our custom binaries subdirectory
 !/bin

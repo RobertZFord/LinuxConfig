@@ -1,0 +1,9 @@
+! this is the stupidest goddamn file, i dunno why i hate it so much
+URxvt*depth: 32
+URxvt*background: rgba:0000/0000/0200/eeee
+URxvt*foreground: rgba:ffff/ffff/ffff/ffff
+URxvt*borderless: 1
+URxvt*scrollBar: 0
+! was using inconsolata originally
+! need to install the dejavu-sans-mono-fonts package for this
+URxvt*font: xft:DejaVuSansMono:size=10:antialias=true
