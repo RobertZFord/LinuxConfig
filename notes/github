@@ -1,0 +1,9 @@
+# CLI 2FA authentication
+
+1. Create a Personal Access Token in the github Developer Options
+
+2. Select the 'repo' options
+
+3. Store the generated personal access token in the `~/.git-credentials` file as a single line in the following format: `https://RobertZFord:personalaccesstoken@github.com`
+
+4. run `git config credential.helper store`

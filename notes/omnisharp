@@ -1,0 +1,10 @@
+1. install:
+        * mono-devel
+        * nuget
+        * maybe mono-complete(?)
+
+2. run 'sudo cert-sync /etc/ssl/certs/ca-bundle.crt'
+
+2b. test by running `csharp -e 'new System.Net.WebClient ().DownloadString("https://www.nuget.org")'`
+
+3. clone omnisharp into a directory

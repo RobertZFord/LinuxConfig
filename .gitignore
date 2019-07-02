@@ -19,3 +19,7 @@
 
 # include our custom binaries
 !/bin/*
+
+# include some notes that we take
+!/notes
+!/notes/*
