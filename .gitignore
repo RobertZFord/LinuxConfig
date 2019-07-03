@@ -23,3 +23,6 @@
 # include some notes that we take
 !/notes
 !/notes/*
+
+# include sway config
+!/.config/sway/config
