@@ -25,7 +25,9 @@ set $menu dmenu_run
 ### Output configuration
 #
 # Default wallpaper (more resolutions are available in /usr/share/backgrounds/sway/)
-output * bg /usr/share/backgrounds/f30/default/normalish/f30.png fill
+#output * bg /usr/share/backgrounds/f30/default/normalish/f30.png fill
+output * bg /usr/share/backgrounds/f25/extras/winter-in-bohemia.png fill
+
 #
 # Example configuration:
 #
