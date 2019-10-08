@@ -10,19 +10,20 @@ div {
                 border: 4px dotted lime !important;
         }
 */
-        a.user_jump,       /* this is the "show posts by user" button */
-        a[href^="#post"],  /* this is the "permalink post" button */
-        ul.profilelinks,   /* this is the profile/whatever buttons beneath posts */
-        ul#nav_purchase,   /* this is all the purchase links */
-        ul#navigation,     /* dunno */
-        ul.navigation,     /* i forgot */
-        div#copyright,     /* copyright text on the bottom */
-        div#filter         /* the post icon filters thing */
-        , table#pm         /* no one ever PMs me anyways */  /* :( */
-        , table#info       /* i dont care how many jackasses got themselves banned */
-        , div.bottom_forms /* lol archives */
-        /*, div.breadcrumbs*/  /* already up top */
-        /*, div.pages.bottom + div.breadcrumbs */
+        a.user_jump         /* this is the "show posts by user" button */
+        , a[href^="#post"]  /* this is the "permalink post" button */
+        , ul.profilelinks   /* this is the profile/whatever buttons beneath posts */
+        , ul#nav_purchase   /* this is all the purchase links */
+        , ul#navigation     /* dunno */
+        , ul.navigation     /* i forgot */
+        , div#copyright     /* copyright text on the bottom */
+        , div#filter        /* the post icon filters thing */
+        , table#pm          /* no one ever PMs me anyways */  /* :( */
+        , table#info        /* i dont care how many jackasses got themselves banned */
+        , div.bottom_forms  /* lol archives */
+        , div.bottom + div.breadcrumbs
+        , tr > th.icon      /* thread icon header */
+        , tr.thread > td.icon /* thread icon cell */
         {
                 display:none !important;
         }
