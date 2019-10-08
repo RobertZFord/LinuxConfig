@@ -1,0 +1,4 @@
+1.  Download the font pack from int10h.org
+2.  Create the folder /usr/share/fonts/oldschool
+3.  Copy all the fonts in the 'PxPlus (TrueType - extended charset)' directory in the .zip to the new folder
+4.  Run 'fc-cache -v'
