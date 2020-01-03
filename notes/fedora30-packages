@@ -7,6 +7,7 @@ git
 vim
 sway
 mesa-dri-drivers
+mesa-dri-drivers.i686 # for Wine
 tmux
 dejavu-sans-mono-fonts
 f25-backgrounds-extras-base
