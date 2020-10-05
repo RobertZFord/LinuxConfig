@@ -1,26 +1,26 @@
 " using vim-plug for plugin management
-call plug#begin()
+"call plug#begin()
 
 " dunno what this is
-Plug 'tpope/vim-sensible'
+"Plug 'tpope/vim-sensible'
 
 " nerd tree? looks like an in-program directory browser
-Plug 'scrooloose/nerdtree'
+"Plug 'scrooloose/nerdtree'
 
 "Plug 'ervandew/supertab'
 
 " ------------- these three are used by omnisharp
 " syntastic -- an external syntax checker
-Plug 'vim-syntastic/syntastic'
+"Plug 'vim-syntastic/syntastic'
 
-Plug 'kien/ctrlp.vim'
+"Plug 'kien/ctrlp.vim'
 
-Plug 'tpope/vim-dispatch'
+"Plug 'tpope/vim-dispatch'
 " -----------------------------------------------
 
-Plug 'OmniSharp/Omnisharp-vim'
+"Plug 'OmniSharp/Omnisharp-vim'
 
-call plug#end()
+"call plug#end()
 
 set tabstop=4
 set expandtab
