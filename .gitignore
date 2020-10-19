@@ -24,5 +24,17 @@
 !/notes
 !/notes/*
 
+# allow the config directory, but not all the things in it
+!/.config
+/.config/*
+
 # include sway config
-!/.config/sway/config
+!/.config/sway
+
+# include our terminal config
+!/.config/alacritty
+
+# include our WM related configs, such as they are
+!/.config/bspwm
+!/.config/polybar
+!/.config/sxhkd
