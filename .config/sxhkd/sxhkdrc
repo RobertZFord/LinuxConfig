@@ -41,7 +41,7 @@ control + super + {Left, Right}
 
 #super + q ; m; {1,2,3,4,5,6,7,8,9,0}
 super + m; {1,2,3,4,5,6,7,8,9,0}
-  bspc node --to-desktop {Alpha,Bravo,Charlie,Delta,Echo,Foxtrot,Golf,Hotel,India,Juliett}
+  bspc node --to-desktop {Alpha,Bravo,Charlie,Delta,Echo,Foxtrot,Golf,Hotel,India,Juliett} --follow
 
 super + x ; super + x ; super + x
   bspc node --kill
