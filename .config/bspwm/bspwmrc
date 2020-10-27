@@ -1,8 +1,11 @@
 #!/nix/store/hrpvwkjz04s9i4nmli843hyw9z4pwhww-bash-4.4-p23/bin/sh
 picom &
 nitrogen --set-scaled ~/Pictures/xfce-blue.jpg &
+
+pkill -f polybar
 polybar example &
 
+pkill -f sxhkd
 sxhkd &
 
 bspc monitor -d Alpha Bravo Charlie Delta Echo Foxtrot Golf Hotel India Juliett
